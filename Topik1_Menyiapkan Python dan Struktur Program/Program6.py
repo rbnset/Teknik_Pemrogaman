@@ -1,0 +1,10 @@
+x1 = int(input("Masukkan Angka Pertama : "))
+x2 = int(input("Masukkan Angka Kedua   : "))
+x3 = int(input("Masukkan Angka Ketiga  : "))
+tambah = x1+x2+x3
+kali = x1*x2*x3
+print("Angka 1 = ", x1)
+print("Angka 2 = ", x2)
+print("Angka 3 = ", x3)
+print('Hasil Penjumlahan %d + %d + %d = %d' % (x1, x2, x3, tambah))
+print('Hasil Perkalian %d x %d x %d = %d' % (x1, x2, x3, kali))
