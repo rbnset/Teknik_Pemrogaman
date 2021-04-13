@@ -48,15 +48,8 @@ elif pilihan == 4:
     p = int(input('Masukan panjang balok : '))
     l = int(input('Masukan lebar balok   : '))
     t = int(input('Masukan tinggi balok  : '))
-    luas(p, l, t)
-    print('Jadi balok dengan ukuran panjang : {}, lebar : {}, tinggi : {}\nMempunyai luas : {}'.format(
-        p, l, t, luas(p, l, t)))
-    volume(p, l, t)
-    print('Jadi balok dengan ukuran panjang : {}, lebar : {}, tinggi : {}\nMempunyai volume : {}'.format(
-        p, l, t, volume(p, l, t)))
-    keliling(p, l, t)
-    print('Jadi balok dengan ukuran panjang : {}, lebar : {}, tinggi : {}\nMempunyai keliling : {}'.format(
-        p, l, t, keliling(p, l, t)))
+    print('Jadi balok dengan ukuran panjang : {}, lebar : {}, tinggi : {}\nMempunyai Luas : {} \nMempunyai Volume : {} \nMempunyai Keliling : {} '.format(
+        p, l, t, luas(p, l, t), volume(p, l, t), keliling(p, l, t)))
 
 
 else:
