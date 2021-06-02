@@ -1,3 +1,10 @@
+# Buat program dengan Python untuk menampilkan :
+123456
+23456
+3456
+456
+5
+
 n = 5
 
 for col in range(1, n+2):
