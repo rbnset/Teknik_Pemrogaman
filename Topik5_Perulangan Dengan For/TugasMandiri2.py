@@ -5,5 +5,7 @@ print('--------------------------------------------')
 
 total = 0
 for i in range(1, 11):
+    total = total+i
     print(i)
-
+print()
+print('Total Angka = ', total)
