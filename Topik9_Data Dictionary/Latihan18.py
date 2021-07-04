@@ -8,7 +8,7 @@ for kunci in warna:
 
 print()
 print('Sedudah diurutkan menurut nilai')
-hasil = sorted(warna.items(), key=lambda x: x[1])
+hasil = sorted(warna.items(), )
 print(hasil)
 for data in hasil:
     print('%-6s:%-s' % (data[1], data[0]))
