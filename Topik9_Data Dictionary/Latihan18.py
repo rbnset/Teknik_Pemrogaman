@@ -1,4 +1,4 @@
-# Pengurutab data
+# Pengurutan data
 
 warna = {'red': 'merah', 'blue': 'biru', 'green': 'hijau',
          'white': 'putih', 'yellow': 'kuning'}
