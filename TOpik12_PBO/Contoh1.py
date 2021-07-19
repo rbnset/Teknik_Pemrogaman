@@ -1,3 +1,5 @@
+# Berikut contoh program Turunan (Inheritance) 1 :
+
 class Ayah:
     def methodAyah(self):
         print('Ini adalah Method Ayah')
